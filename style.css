@@ -3,9 +3,12 @@
     padding: 0;
 }
 
-.cabecalho {
-    padding: 15px 25px;
-}
+.cabecalho { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 25px; 
+} 
 
 .cartao-frente,
 .cartao-verso {
@@ -23,6 +26,13 @@
 
 }
 
-body {
-    background-color: rgb(151, 228, 236);
-}
+body { 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+} 
+
+main { 
+  flex: 1; 
+} 
+
