@@ -8,7 +8,7 @@
   justify-content: space-between; 
   align-items: center; 
   padding: 15px 25px; 
-  background-color: rgb(247, 0, 255);
+  background-color: rgb(255, 0, 187);
 } 
 
 .cartao-frente,
@@ -31,7 +31,7 @@ body {
   display: flex; 
   flex-direction: column; 
   min-height: 100vh; 
-  background-color: rgb(247, 0, 255);
+  background-color: rgb(249, 66, 255);
 } 
 
 main { 
